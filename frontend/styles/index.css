@@ -1,10 +1,12 @@
-@import 'navbar';
+@import 'navbar.css';
+@import 'footer.css';
 
 :root {
-  --body-background: #f2f2f2;
-  --body-color: #444;
-  --heading-color: black;
-  --action-color: #d64045;
+  --gunmetal: #282C3F;
+  --silver: #707070;
+  --semitransparent: #0000001A;
+  --blue: #83D2E2;
+  --red: #DF6459;
 }
 
 /* Box sizing rules */
@@ -45,6 +47,10 @@ body {
   text-rendering: optimizeSpeed;
   line-height: 1.5;
   font-family: "urw-din", sans-serif;
+}
+
+main {
+  min-height: calc(100vh - 265px);
 }
 
 /* A elements that don't have a class get default styles */
