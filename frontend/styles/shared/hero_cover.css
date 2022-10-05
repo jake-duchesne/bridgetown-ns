@@ -1,0 +1,48 @@
+section {
+  min-height: 960px;
+  background-position: right;
+  background-size: cover;
+  overflow-x: hidden;
+  display: flex;
+}
+
+h2.hero {
+  font: normal normal 300 104px/96px urw-din, sans-serif;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 80rem;
+  padding-left: 180px;
+  padding-right: 160px;
+}
+
+.eyebrow {
+  color: white;
+  font-weight: 300;
+  padding-left: 10px;
+}
+
+.notched::before {
+  position: absolute;
+  top: 15px;
+  left: -45px;
+  width: 32px;
+  height: 32px;
+  background-image: url('/images/notch.svg');
+  content: "";
+  display: block;
+}
+
+.notched {
+  position: relative;
+  color: white;
+  text-transform: uppercase;
+}
+
+
+@media (min-width: 1024px) {
+
+}

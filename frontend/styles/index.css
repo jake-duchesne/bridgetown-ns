@@ -1,5 +1,6 @@
 @import 'navbar.css';
 @import 'footer.css';
+@import 'shared/hero_cover.css';
 
 :root {
   --gunmetal: #282C3F;
